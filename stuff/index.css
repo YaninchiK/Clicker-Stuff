@@ -1,0 +1,111 @@
+body {
+    background: #E5E7EB;
+	font-family: Verdana,Geneva,sans-serif;
+}
+
+@font-face {
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-family: counting-numbers;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 385px;
+    width: 575px;
+    background: #1B244A;
+    border: 5px solid #F9FAFB;
+    border-radius: 15px;
+}
+
+.counter {
+    width: 155px;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.name-stt {
+    color: #F9FAFB;
+    margin: 0;
+    font-size: 40px;
+}
+
+.score {
+    height: 120px;
+    width: 155px;
+    background: black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#home-score {
+    font-family: counting-numbers, sans-serif;
+    font-size: 90px;
+    color: #F94F6D;
+    margin: 0;
+    transform: translateY(7px);
+}
+
+#guest-score {
+    font-family: counting-numbers, sans-serif;
+    font-size: 90px;
+    color: #F94F6D;
+    margin: 0;
+    transform: translateY(7px);
+}
+
+.btn-count {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#home-btn {
+    background-color: #1B244A;
+    color: #9AABD8;
+    height: 45px;
+    width: 45px;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    font-family: counting-numbers, sans-serif;
+    font-size: 18px;
+    padding-top: 6px;
+}
+
+#guest-btn {
+    background-color: #1B244A;
+    color: #9AABD8;
+    height: 45px;
+    width: 45px;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    font-family: counting-numbers, sans-serif;
+    font-size: 18px;
+    padding-top: 6px;
+}
+
+#reset-game {
+    margin: auto 0;
+    background-color: #1B244A;
+    color: #9AABD8;
+    height: 45px;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-top: 6px;
+}
+
+.main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
