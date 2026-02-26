@@ -51,7 +51,7 @@ body {
     font-size: 90px;
     color: #F94F6D;
     margin: 0;
-    transform: translateY(6px);
+    transform: translateY(7px);
 }
 
 #guest-score {
@@ -59,7 +59,7 @@ body {
     font-size: 90px;
     color: #F94F6D;
     margin: 0;
-    transform: translateY(6px);
+    transform: translateY(7px);
 }
 
 .btn-count {
